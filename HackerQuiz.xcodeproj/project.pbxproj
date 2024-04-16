@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5335FB72BCEC36500B68ECA /* HackerQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5335FB62BCEC36500B68ECA /* HackerQuizApp.swift */; };
+		F5335FB92BCEC36500B68ECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5335FB82BCEC36500B68ECA /* ContentView.swift */; };
+		F5335FBB2BCEC36500B68ECA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5335FBA2BCEC36500B68ECA /* Item.swift */; };
+		F5335FBD2BCEC36600B68ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5335FBC2BCEC36600B68ECA /* Assets.xcassets */; };
+		F5335FC02BCEC36600B68ECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5335FBF2BCEC36600B68ECA /* Preview Assets.xcassets */; };
+		F5335FCA2BCEC36600B68ECA /* HackerQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5335FC92BCEC36600B68ECA /* HackerQuizTests.swift */; };
+		F5335FD42BCEC36600B68ECA /* HackerQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5335FD32BCEC36600B68ECA /* HackerQuizUITests.swift */; };
+		F5335FD62BCEC36600B68ECA /* HackerQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5335FD52BCEC36600B68ECA /* HackerQuizUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5335FC62BCEC36600B68ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5335FAB2BCEC36500B68ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5335FB22BCEC36500B68ECA;
+			remoteInfo = HackerQuiz;
+		};
+		F5335FD02BCEC36600B68ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5335FAB2BCEC36500B68ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5335FB22BCEC36500B68ECA;
+			remoteInfo = HackerQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5335FB32BCEC36500B68ECA /* HackerQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5335FB62BCEC36500B68ECA /* HackerQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerQuizApp.swift; sourceTree = "<group>"; };
+		F5335FB82BCEC36500B68ECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5335FBA2BCEC36500B68ECA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F5335FBC2BCEC36600B68ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5335FBF2BCEC36600B68ECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5335FC52BCEC36600B68ECA /* HackerQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5335FC92BCEC36600B68ECA /* HackerQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerQuizTests.swift; sourceTree = "<group>"; };
+		F5335FCF2BCEC36600B68ECA /* HackerQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5335FD32BCEC36600B68ECA /* HackerQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerQuizUITests.swift; sourceTree = "<group>"; };
+		F5335FD52BCEC36600B68ECA /* HackerQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5335FB02BCEC36500B68ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5335FC22BCEC36600B68ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5335FCC2BCEC36600B68ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5335FAA2BCEC36500B68ECA = {
+			isa = PBXGroup;
+			children = (
+				F5335FB52BCEC36500B68ECA /* HackerQuiz */,
+				F5335FC82BCEC36600B68ECA /* HackerQuizTests */,
+				F5335FD22BCEC36600B68ECA /* HackerQuizUITests */,
+				F5335FB42BCEC36500B68ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5335FB42BCEC36500B68ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5335FB32BCEC36500B68ECA /* HackerQuiz.app */,
+				F5335FC52BCEC36600B68ECA /* HackerQuizTests.xctest */,
+				F5335FCF2BCEC36600B68ECA /* HackerQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5335FB52BCEC36500B68ECA /* HackerQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				F5335FB62BCEC36500B68ECA /* HackerQuizApp.swift */,
+				F5335FB82BCEC36500B68ECA /* ContentView.swift */,
+				F5335FBA2BCEC36500B68ECA /* Item.swift */,
+				F5335FBC2BCEC36600B68ECA /* Assets.xcassets */,
+				F5335FBE2BCEC36600B68ECA /* Preview Content */,
+			);
+			path = HackerQuiz;
+			sourceTree = "<group>";
+		};
+		F5335FBE2BCEC36600B68ECA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5335FBF2BCEC36600B68ECA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5335FC82BCEC36600B68ECA /* HackerQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5335FC92BCEC36600B68ECA /* HackerQuizTests.swift */,
+			);
+			path = HackerQuizTests;
+			sourceTree = "<group>";
+		};
+		F5335FD22BCEC36600B68ECA /* HackerQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5335FD32BCEC36600B68ECA /* HackerQuizUITests.swift */,
+				F5335FD52BCEC36600B68ECA /* HackerQuizUITestsLaunchTests.swift */,
+			);
+			path = HackerQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5335FB22BCEC36500B68ECA /* HackerQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5335FD92BCEC36600B68ECA /* Build configuration list for PBXNativeTarget "HackerQuiz" */;
+			buildPhases = (
+				F5335FAF2BCEC36500B68ECA /* Sources */,
+				F5335FB02BCEC36500B68ECA /* Frameworks */,
+				F5335FB12BCEC36500B68ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerQuiz;
+			productName = HackerQuiz;
+			productReference = F5335FB32BCEC36500B68ECA /* HackerQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5335FC42BCEC36600B68ECA /* HackerQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5335FDC2BCEC36600B68ECA /* Build configuration list for PBXNativeTarget "HackerQuizTests" */;
+			buildPhases = (
+				F5335FC12BCEC36600B68ECA /* Sources */,
+				F5335FC22BCEC36600B68ECA /* Frameworks */,
+				F5335FC32BCEC36600B68ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5335FC72BCEC36600B68ECA /* PBXTargetDependency */,
+			);
+			name = HackerQuizTests;
+			productName = HackerQuizTests;
+			productReference = F5335FC52BCEC36600B68ECA /* HackerQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5335FCE2BCEC36600B68ECA /* HackerQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5335FDF2BCEC36600B68ECA /* Build configuration list for PBXNativeTarget "HackerQuizUITests" */;
+			buildPhases = (
+				F5335FCB2BCEC36600B68ECA /* Sources */,
+				F5335FCC2BCEC36600B68ECA /* Frameworks */,
+				F5335FCD2BCEC36600B68ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5335FD12BCEC36600B68ECA /* PBXTargetDependency */,
+			);
+			name = HackerQuizUITests;
+			productName = HackerQuizUITests;
+			productReference = F5335FCF2BCEC36600B68ECA /* HackerQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5335FAB2BCEC36500B68ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F5335FB22BCEC36500B68ECA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F5335FC42BCEC36600B68ECA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F5335FB22BCEC36500B68ECA;
+					};
+					F5335FCE2BCEC36600B68ECA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F5335FB22BCEC36500B68ECA;
+					};
+				};
+			};
+			buildConfigurationList = F5335FAE2BCEC36500B68ECA /* Build configuration list for PBXProject "HackerQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5335FAA2BCEC36500B68ECA;
+			productRefGroup = F5335FB42BCEC36500B68ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5335FB22BCEC36500B68ECA /* HackerQuiz */,
+				F5335FC42BCEC36600B68ECA /* HackerQuizTests */,
+				F5335FCE2BCEC36600B68ECA /* HackerQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5335FB12BCEC36500B68ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5335FC02BCEC36600B68ECA /* Preview Assets.xcassets in Resources */,
+				F5335FBD2BCEC36600B68ECA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5335FC32BCEC36600B68ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5335FCD2BCEC36600B68ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5335FAF2BCEC36500B68ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5335FB92BCEC36500B68ECA /* ContentView.swift in Sources */,
+				F5335FBB2BCEC36500B68ECA /* Item.swift in Sources */,
+				F5335FB72BCEC36500B68ECA /* HackerQuizApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5335FC12BCEC36600B68ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5335FCA2BCEC36600B68ECA /* HackerQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5335FCB2BCEC36600B68ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5335FD42BCEC36600B68ECA /* HackerQuizUITests.swift in Sources */,
+				F5335FD62BCEC36600B68ECA /* HackerQuizUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5335FC72BCEC36600B68ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5335FB22BCEC36500B68ECA /* HackerQuiz */;
+			targetProxy = F5335FC62BCEC36600B68ECA /* PBXContainerItemProxy */;
+		};
+		F5335FD12BCEC36600B68ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5335FB22BCEC36500B68ECA /* HackerQuiz */;
+			targetProxy = F5335FD02BCEC36600B68ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5335FD72BCEC36600B68ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5335FD82BCEC36600B68ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5335FDA2BCEC36600B68ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackerQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P5URE3QQ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackerquizapp.HackerQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5335FDB2BCEC36600B68ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackerQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P5URE3QQ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackerquizapp.HackerQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5335FDD2BCEC36600B68ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P5URE3QQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackerquizapp.HackerQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackerQuiz";
+			};
+			name = Debug;
+		};
+		F5335FDE2BCEC36600B68ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P5URE3QQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackerquizapp.HackerQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackerQuiz";
+			};
+			name = Release;
+		};
+		F5335FE02BCEC36600B68ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P5URE3QQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackerquizapp.HackerQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackerQuiz;
+			};
+			name = Debug;
+		};
+		F5335FE12BCEC36600B68ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P5URE3QQ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackerquizapp.HackerQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackerQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5335FAE2BCEC36500B68ECA /* Build configuration list for PBXProject "HackerQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5335FD72BCEC36600B68ECA /* Debug */,
+				F5335FD82BCEC36600B68ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5335FD92BCEC36600B68ECA /* Build configuration list for PBXNativeTarget "HackerQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5335FDA2BCEC36600B68ECA /* Debug */,
+				F5335FDB2BCEC36600B68ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5335FDC2BCEC36600B68ECA /* Build configuration list for PBXNativeTarget "HackerQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5335FDD2BCEC36600B68ECA /* Debug */,
+				F5335FDE2BCEC36600B68ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5335FDF2BCEC36600B68ECA /* Build configuration list for PBXNativeTarget "HackerQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5335FE02BCEC36600B68ECA /* Debug */,
+				F5335FE12BCEC36600B68ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5335FAB2BCEC36500B68ECA /* Project object */;
+}
